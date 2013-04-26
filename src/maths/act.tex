@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+
+\title{\textbf{Activités}}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section{}
+\section{Activité 2}
+
+Démontrer que $\overrightarrow{u} . \overrightarrow{v} = ||\overrightarrow{u}|| \times ||\overrightarrow{v}|| \times \cos(\overrightarrow{u}, \overrightarrow{v})$.
+
+Cf. fig. 2.
+
+On pose :
+\[
+\overrightarrow{AB} = \overrightarrow{u}\\
+\overrightarrow{AC} = \overrightarrow{v}\\
+(\overrightarrow{u};\overrightarrow{v}) = (\overrightarrow{AB};\overrightarrow{AC})
+\]
+
+Soit $\overrightarrow{i}$ tel que $\overrightarrow{AB} = AB \times \overrightarrow{i}$ et $\overrightarrow{j}$ tel que $(A;\overrightarrow{i};\overrightarrow{j})$soit orthonormé. Le cercle orienté de centre $A$ et de rayon 1 est donc le cercle trigonométrique.
+
+\[
+AK = 1 = ||\overrightarrow{i}|| = ||\overrightarrow{j}||\\
+\overrightarrow{AC} = AC \times \overrightarrow{AK}
+\]
+
+On a donc :
+
+\[
+K(\cos \theta;\sin \theta)\\
+\overrightarrow{AC}(AC \cos \theta;AC \sin \theta)\\
+\overrightarrow{AB}(AB;0)
+\]
+
+\[
+\overrightarrow{AB}.\overrightarrow{AC} = AB \times AC \times \cos(\overrightarrow{u};\overrightarrow{v})
+\]
+
+Or $\cos(\overrightarrow{u};\overrightarrow{v})=\cos(\overrightarrow{v};\overrightarrow{u})$.
+
+\[
+\cos(\overrightarrow{AB};\overrightarrow{AC})=\cos(\overrightarrow{AC};\overrightarrow{AB})=\cos \widehat{BAC}
+\]
+
+\textbf{Conséquence} : exprimer $\overrightarrow{u}.\overrightarrow{v}$ dans le cas $\overrightarrow{u}$ et $\overrightarrow{v}$ colinéaires.
+
+$\overrightarrow{u}$ et $\overrightarrow{v}$ colinéaires $\Leftrightarrow$ $(u;v)=0 [2\pi]$\footnote{Même sens} ou $(u;v)=\pi [2\pi]$\footnote{Sens contraire}.
+
+On en déduit :
+\[
+\overrightarrow{u}.\overrightarrow{v} = ||\overrightarrow{u}|| \times ||\overrightarrow{v}|| \times \cos 0 = ||\overrightarrow{u}|| \times ||\overrightarrow{v}||
+\]
+ou
+\[
+\overrightarrow{u}.\overrightarrow{v} = ||\overrightarrow{u}|| \times ||\overrightarrow{v}|| \times \cos \pi = - ||\overrightarrow{u}|| \times ||\overrightarrow{v}||
+\]
+
+\section{Activité 3}
+
+Soient $A$, $B$, $C$ non alignés, $H$ le projeté orthogonal de $C$ sur $(AB)$.
+
+Démontrer que $\overrightarrow{AB}.\overrightarrow{AC} = \overrightarrow{AB}.\overrightarrow{AH}$.
+
+\end{document}
