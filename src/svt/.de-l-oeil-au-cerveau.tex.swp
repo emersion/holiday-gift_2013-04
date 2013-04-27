@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\renewcommand{\emph}{\textbf}
+
+\title{\textbf{Thème 4 : de l'oeil au cerveau, quelques aspects de la vision}}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+
+\textit{Cf. doc. 1 \& 2.}
+
+Le système nerveux est un système en réseau constitué de centres nerveux, des nerfs et des organes des sens.
+
+L'oeil est l'organe des sens spécialisé dans la vision.
+
+\section{L'oeil}
+
+\subsection*{a) Structure de l'oeil}
+
+\textit{Cf activité 1 : dissection virtuelle de l'oeil de thon.}
+
+\end{document}

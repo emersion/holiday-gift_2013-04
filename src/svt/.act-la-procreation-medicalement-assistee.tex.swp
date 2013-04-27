@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\renewcommand{\emph}{\textbf}
+
+\title{\textbf{La procréation médicalement assistée}}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{La technique de la FIVETTE}
+
+FIVETTE: Fécondation In Vitro Et Transfert d'Embryon
+
+\begin{enumerate}
+\item Stimulation ovarienne
+\item Ponction des follicules mûrs
+\item Prélèvement de sperme (ou don)
+\item Fécondation in vitro. Éventuellement: ICSI (injection du spermatozoïde directement dans l'ovule).
+\item[6.] Injection dans l'utérus
+\end{enumerate}
+
+Cadre légal et éthique : les \emph{lois de bioéthique} (dernière révision en 2011).
+
+Ne marche pas tout le temps : à peu près 25\% de chances de réussite.
+
+\end{document}

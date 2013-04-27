@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\renewcommand{\emph}{\textbf}
+
+\title{\textbf{Les bases biologiques du plaisir}}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{Document 1}
+
+L'orgasme est un réflexe : il est dû à des phénomènes biologiques naturels et est accompagné de manifestations physiques involontaires.
+
+L'orgasme est aussi psychologique : il êst accompagné de pensées et d'émotions variables selon l'individu, dépendant de son histoire personnelle et du contexte.
+
+\section*{Document 2}
+
+L'aire tegmentale ventrale est liée au plaisir car elle est stimulée en premier lors de l'orgasme.
+
+Le \textit{circuit} est composé de différentes aires cérébrales qui seront activées lors d'un orgasme et la \textit{récompense} est le plaisir sexuel.
+
+\section*{Visionnage de la vidéo}
+
+La stimulation de l'ATV libère de la dopamine das le cerveau $\Rightarrow$ sensation de satisfaction.
+
+Hypothalamus : zone finale du circuit.
+
+\textit{Cf. schéma.}
+
+\section*{Bilan}
+
+L'activité sexuelle est essociée au plaisir qui repose entre autres sur des phénomènes biologiques.
+
+Il s'agit de l'activation dans le cerveau d'un circuit particulier : le \emph{système de la récompense}.
+
+Ce système est à l'origine du \emph{renforcement} de certains comportements (satisfaction $\Rightarrow$ motivation).
+
+\end{document}
